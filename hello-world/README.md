@@ -1,5 +1,8 @@
 # Kubernetes Hello World
 
+## Prerequisites
+* Rancher Desktop
+
 ## How to Run
 
 ```bash
