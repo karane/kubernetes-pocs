@@ -14,3 +14,11 @@ kubectl port-forward svc/hello-service 8080:80
 ```
 
 Now, go to your browser for `localhost:8080`. It should show the "Welcome to nginx" page.
+
+## How to destroy everything
+```bash
+kubectl get svc # check for the hello world service name
+kubectl delete svc hello-world
+kubectl get deploy # check for the hello world deployment
+kubectl delete deploy hello-world
+```
